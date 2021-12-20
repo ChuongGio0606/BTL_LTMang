@@ -1,88 +1,140 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>StuLog - Learning for kids - Trang chủ</title>
-	<link rel="shortcut icon" href="anh/shortcut.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StuLog - Learning for kids - Trang chủ</title>
+    <link rel="shortcut icon" href="anh/shortcut.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-	<header>
-		<a href=""><img src="anh/header.png" width="400" height="160"></a>
-	</header>
+    <header>
+        <a href=""><img src="anh/header.png" width="400" height="160"></a>
+    </header>
 
 
-<!-- menu	 ---------------------------------------->
-<nav>
-    <ul class="menu-cap3 clearfix" >
-      <li><a href="INDEX.html" >Trang chủ</a></li>
-      <li>
-        <a href="#" >Lớp</a> 
-        <ul class="menu-sub" >
-          <li><a href="#" >Lớp 3</a> </li>
-          <li>
-               <a href="#" >Lớp 4</a> 
-               <ul class="menu-sub" >
-                   <li><a href="#" >Sản phẩm B - 1</a> </li>
-                   <li><a href="#" >Sản phẩm B - 2</a> </li>
-                   <li><a href="#" >Sản phẩm B - 3</a> </li>
-                   <li><a href="#" >Sản phẩm B - 4</a> </li>
-               </ul>
-          </li>
-          <li><a href="#" >Lớp 5</a> </li>
+    <!-- menu	 ---------------------------------------->
+    <nav>
+        <ul class="menu-cap3 clearfix">
+            <li><a href="INDEX.html">Trang chủ</a></li>
+            <li>
+                <a href="#">Lớp</a>
+                <ul class="menu-sub">
+                    <li><a href="#">Lớp 3</a> </li>
+                    <li>
+                        <a href="#">Lớp 4</a>
+                        <ul class="menu-sub">
+                            <li><a href="#">Sản phẩm B - 1</a> </li>
+                            <li><a href="#">Sản phẩm B - 2</a> </li>
+                            <li><a href="#">Sản phẩm B - 3</a> </li>
+                            <li><a href="#">Sản phẩm B - 4</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Lớp 5</a> </li>
+                </ul>
+            </li>
+            <li><a href="lien he.html">Liên hệ</a> </li>
+            <li><a href="dang nhap.html">Đăng nhập</a> </li>
+            <li><a href="#"><img src="anh/cart.png" width="45" height="45"></a></li>
         </ul>
-      </li>
-      <li><a href="lien he.html" >Liên hệ</a> </li>
-      <li><a href="dang nhap.html" >Đăng nhập</a> </li>
-      <li><a href="#"><img src="anh/cart.png" width="45" height="45"></a></li>
-    </ul>
-</nav>
-<!--end menu ------------------------------------->	
+    </nav>
+    <!--end menu ------------------------------------->
 
 
-<!--slide -------------------------------------->	
+    <!--slide -------------------------------------->
     <div class="slidershow middle">
-    <div class="slides">
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <div class="slide s1">
-            <img src="anh/1.jfif" alt="anh1">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <div class="slide s1">
+                <img src="anh/1.jfif" alt="anh1">
+            </div>
+            <div class="slide">
+                <img src="anh/2.jfif" alt="anh2">
+            </div>
+            <div class="slide">
+                <img src="anh/3.jfif" alt="anh3">
+            </div>
+            <div class="slide">
+                <img src="anh/4.jfif" alt="anh4">
+            </div>
         </div>
-        <div class="slide">
-            <img src="anh/2.jfif" alt="anh2">
-        </div>
-        <div class="slide">
-            <img src="anh/3.jfif" alt="anh3">
-        </div>
-        <div class="slide">
-            <img src="anh/4.jfif" alt="anh4">
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
         </div>
     </div>
-    <div class="navigation">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
-        <label for="r4" class="bar"></label>
+    <!-- end slide ------------------------------------>
+
+
+    <!-- nội dung chính------------------------------->
+    <div id="content">
+        <h1 id="text-center">lớp 3</h1>
+        <div id='list-content'>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+                <button type="submit" id="button">Vao Hoc</button>
+            </div>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center" id="button"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+                <button type="submit" id="button">Vao Hoc</button>
+            </div>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+                <button type="submit" id="button">Vao Hoc</button>
+            </div>
+        </div>
+
+        <h1 id="text-center">lớp 4</h1>
+        <div id='list-content'>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+
+            </div>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+
+            </div>
+            <div id='content-item'>
+                <img src="https://fakeimg.pl/250x100/">
+                <div id='title-item'>
+                    <h3 id="text-center"><a href="">Khoa Hoc Mon Toan</a></h3>
+                </div>
+
+            </div>
+        </div>
     </div>
-</div>
-<!-- end slide ------------------------------------>
+
+    <!--end nội dung chính--------------------------->
 
 
-<!-- nội dung chính------------------------------->	
-	<article> 
-		
-	</article>
-<!--end nội dung chính--------------------------->
-
-
-<!-- footer	 -------------------------------------->
-	<footer>
-		<a href=""><img src="anh/footer.png" width="400" height="200"></a>
-	</footer>
-</div>
+    <!-- footer	 -------------------------------------->
+    <footer>
+        <a href=""><img src="anh/footer.png" width="400" height="200"></a>
+    </footer>
+    </div>
 </body>
+
 </html>
